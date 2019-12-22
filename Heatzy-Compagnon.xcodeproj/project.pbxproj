@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		76246EF123AFD1B300BD642F /* KeyboardObserving in Frameworks */ = {isa = PBXBuildFile; productRef = 76246EF023AFD1B300BD642F /* KeyboardObserving */; };
+		765276EB23AFACA700C54F4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765276EA23AFACA700C54F4C /* AppDelegate.swift */; };
+		765276ED23AFACA700C54F4C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765276EC23AFACA700C54F4C /* SceneDelegate.swift */; };
+		765276EF23AFACA700C54F4C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765276EE23AFACA700C54F4C /* ContentView.swift */; };
+		765276F123AFACA800C54F4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 765276F023AFACA800C54F4C /* Assets.xcassets */; };
+		765276F423AFACA800C54F4C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 765276F323AFACA800C54F4C /* Preview Assets.xcassets */; };
+		7652770223AFACA800C54F4C /* Heatzy_CompagnonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7652770123AFACA800C54F4C /* Heatzy_CompagnonTests.swift */; };
+		7652770D23AFACA800C54F4C /* Heatzy_CompagnonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7652770C23AFACA800C54F4C /* Heatzy_CompagnonUITests.swift */; };
+		7652771B23AFADC200C54F4C /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7652771A23AFADC200C54F4C /* LoginView.swift */; };
+		7652772023AFAE4E00C54F4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7652771E23AFAE4E00C54F4C /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		765276FE23AFACA800C54F4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 765276DF23AFACA700C54F4C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 765276E623AFACA700C54F4C;
+			remoteInfo = "Heatzy-Compagnon";
+		};
+		7652770923AFACA800C54F4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 765276DF23AFACA700C54F4C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 765276E623AFACA700C54F4C;
+			remoteInfo = "Heatzy-Compagnon";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		765276E723AFACA700C54F4C /* Heatzy-Compagnon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Heatzy-Compagnon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		765276EA23AFACA700C54F4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		765276EC23AFACA700C54F4C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		765276EE23AFACA700C54F4C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ../ContentView.swift; sourceTree = "<group>"; };
+		765276F023AFACA800C54F4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		765276F323AFACA800C54F4C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		765276F823AFACA800C54F4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		765276FD23AFACA800C54F4C /* Heatzy-CompagnonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Heatzy-CompagnonTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7652770123AFACA800C54F4C /* Heatzy_CompagnonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heatzy_CompagnonTests.swift; sourceTree = "<group>"; };
+		7652770323AFACA800C54F4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7652770823AFACA800C54F4C /* Heatzy-CompagnonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Heatzy-CompagnonUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7652770C23AFACA800C54F4C /* Heatzy_CompagnonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heatzy_CompagnonUITests.swift; sourceTree = "<group>"; };
+		7652770E23AFACA800C54F4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7652771A23AFADC200C54F4C /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		7652771F23AFAE4E00C54F4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Heatzy-Compagnon/Base.lproj/LaunchScreen.storyboard"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		765276E423AFACA700C54F4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76246EF123AFD1B300BD642F /* KeyboardObserving in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		765276FA23AFACA800C54F4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7652770523AFACA800C54F4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		765276DE23AFACA700C54F4C = {
+			isa = PBXGroup;
+			children = (
+				765276E923AFACA700C54F4C /* Heatzy-Compagnon */,
+				7652770023AFACA800C54F4C /* Heatzy-CompagnonTests */,
+				7652770B23AFACA800C54F4C /* Heatzy-CompagnonUITests */,
+				765276E823AFACA700C54F4C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		765276E823AFACA700C54F4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				765276E723AFACA700C54F4C /* Heatzy-Compagnon.app */,
+				765276FD23AFACA800C54F4C /* Heatzy-CompagnonTests.xctest */,
+				7652770823AFACA800C54F4C /* Heatzy-CompagnonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		765276E923AFACA700C54F4C /* Heatzy-Compagnon */ = {
+			isa = PBXGroup;
+			children = (
+				765276EA23AFACA700C54F4C /* AppDelegate.swift */,
+				765276EC23AFACA700C54F4C /* SceneDelegate.swift */,
+				7652771C23AFADC800C54F4C /* UI */,
+				7652771D23AFADD600C54F4C /* SupportingFiles */,
+			);
+			path = "Heatzy-Compagnon";
+			sourceTree = "<group>";
+		};
+		765276F223AFACA800C54F4C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				765276F323AFACA800C54F4C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7652770023AFACA800C54F4C /* Heatzy-CompagnonTests */ = {
+			isa = PBXGroup;
+			children = (
+				7652770123AFACA800C54F4C /* Heatzy_CompagnonTests.swift */,
+				7652770323AFACA800C54F4C /* Info.plist */,
+			);
+			path = "Heatzy-CompagnonTests";
+			sourceTree = "<group>";
+		};
+		7652770B23AFACA800C54F4C /* Heatzy-CompagnonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7652770C23AFACA800C54F4C /* Heatzy_CompagnonUITests.swift */,
+				7652770E23AFACA800C54F4C /* Info.plist */,
+			);
+			path = "Heatzy-CompagnonUITests";
+			sourceTree = "<group>";
+		};
+		7652771C23AFADC800C54F4C /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				765276EE23AFACA700C54F4C /* ContentView.swift */,
+				7652771A23AFADC200C54F4C /* LoginView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		7652771D23AFADD600C54F4C /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				765276F023AFACA800C54F4C /* Assets.xcassets */,
+				765276F823AFACA800C54F4C /* Info.plist */,
+				7652771E23AFAE4E00C54F4C /* LaunchScreen.storyboard */,
+				765276F223AFACA800C54F4C /* Preview Content */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		765276E623AFACA700C54F4C /* Heatzy-Compagnon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7652771123AFACA800C54F4C /* Build configuration list for PBXNativeTarget "Heatzy-Compagnon" */;
+			buildPhases = (
+				765276E323AFACA700C54F4C /* Sources */,
+				765276E423AFACA700C54F4C /* Frameworks */,
+				765276E523AFACA700C54F4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Heatzy-Compagnon";
+			packageProductDependencies = (
+				76246EF023AFD1B300BD642F /* KeyboardObserving */,
+			);
+			productName = "Heatzy-Compagnon";
+			productReference = 765276E723AFACA700C54F4C /* Heatzy-Compagnon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		765276FC23AFACA800C54F4C /* Heatzy-CompagnonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7652771423AFACA800C54F4C /* Build configuration list for PBXNativeTarget "Heatzy-CompagnonTests" */;
+			buildPhases = (
+				765276F923AFACA800C54F4C /* Sources */,
+				765276FA23AFACA800C54F4C /* Frameworks */,
+				765276FB23AFACA800C54F4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				765276FF23AFACA800C54F4C /* PBXTargetDependency */,
+			);
+			name = "Heatzy-CompagnonTests";
+			productName = "Heatzy-CompagnonTests";
+			productReference = 765276FD23AFACA800C54F4C /* Heatzy-CompagnonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7652770723AFACA800C54F4C /* Heatzy-CompagnonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7652771723AFACA800C54F4C /* Build configuration list for PBXNativeTarget "Heatzy-CompagnonUITests" */;
+			buildPhases = (
+				7652770423AFACA800C54F4C /* Sources */,
+				7652770523AFACA800C54F4C /* Frameworks */,
+				7652770623AFACA800C54F4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7652770A23AFACA800C54F4C /* PBXTargetDependency */,
+			);
+			name = "Heatzy-CompagnonUITests";
+			productName = "Heatzy-CompagnonUITests";
+			productReference = 7652770823AFACA800C54F4C /* Heatzy-CompagnonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		765276DF23AFACA700C54F4C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Florian Gabach";
+				TargetAttributes = {
+					765276E623AFACA700C54F4C = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					765276FC23AFACA800C54F4C = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 765276E623AFACA700C54F4C;
+					};
+					7652770723AFACA800C54F4C = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 765276E623AFACA700C54F4C;
+					};
+				};
+			};
+			buildConfigurationList = 765276E223AFACA700C54F4C /* Build configuration list for PBXProject "Heatzy-Compagnon" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 765276DE23AFACA700C54F4C;
+			packageReferences = (
+				76246EEF23AFD1B300BD642F /* XCRemoteSwiftPackageReference "KeyboardObserving" */,
+			);
+			productRefGroup = 765276E823AFACA700C54F4C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				765276E623AFACA700C54F4C /* Heatzy-Compagnon */,
+				765276FC23AFACA800C54F4C /* Heatzy-CompagnonTests */,
+				7652770723AFACA800C54F4C /* Heatzy-CompagnonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		765276E523AFACA700C54F4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7652772023AFAE4E00C54F4C /* LaunchScreen.storyboard in Resources */,
+				765276F423AFACA800C54F4C /* Preview Assets.xcassets in Resources */,
+				765276F123AFACA800C54F4C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		765276FB23AFACA800C54F4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7652770623AFACA800C54F4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		765276E323AFACA700C54F4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				765276EB23AFACA700C54F4C /* AppDelegate.swift in Sources */,
+				765276ED23AFACA700C54F4C /* SceneDelegate.swift in Sources */,
+				7652771B23AFADC200C54F4C /* LoginView.swift in Sources */,
+				765276EF23AFACA700C54F4C /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		765276F923AFACA800C54F4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7652770223AFACA800C54F4C /* Heatzy_CompagnonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7652770423AFACA800C54F4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7652770D23AFACA800C54F4C /* Heatzy_CompagnonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		765276FF23AFACA800C54F4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 765276E623AFACA700C54F4C /* Heatzy-Compagnon */;
+			targetProxy = 765276FE23AFACA800C54F4C /* PBXContainerItemProxy */;
+		};
+		7652770A23AFACA800C54F4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 765276E623AFACA700C54F4C /* Heatzy-Compagnon */;
+			targetProxy = 7652770923AFACA800C54F4C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7652771E23AFAE4E00C54F4C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7652771F23AFAE4E00C54F4C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7652770F23AFACA800C54F4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7652771023AFACA800C54F4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7652771223AFACA800C54F4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Heatzy-Compagnon/SupportingFiles/Preview Content\"";
+				DEVELOPMENT_TEAM = XEHEC9B46E;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Heatzy-Compagnon/SupportingFiles/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.floriangabach.Heatzy-Compagnon";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7652771323AFACA800C54F4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Heatzy-Compagnon/SupportingFiles/Preview Content\"";
+				DEVELOPMENT_TEAM = XEHEC9B46E;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Heatzy-Compagnon/SupportingFiles/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.floriangabach.Heatzy-Compagnon";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7652771523AFACA800C54F4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XEHEC9B46E;
+				INFOPLIST_FILE = "Heatzy-CompagnonTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.floriangabach.Heatzy-CompagnonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Heatzy-Compagnon.app/Heatzy-Compagnon";
+			};
+			name = Debug;
+		};
+		7652771623AFACA800C54F4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XEHEC9B46E;
+				INFOPLIST_FILE = "Heatzy-CompagnonTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.floriangabach.Heatzy-CompagnonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Heatzy-Compagnon.app/Heatzy-Compagnon";
+			};
+			name = Release;
+		};
+		7652771823AFACA800C54F4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XEHEC9B46E;
+				INFOPLIST_FILE = "Heatzy-CompagnonUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.floriangabach.Heatzy-CompagnonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Heatzy-Compagnon";
+			};
+			name = Debug;
+		};
+		7652771923AFACA800C54F4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XEHEC9B46E;
+				INFOPLIST_FILE = "Heatzy-CompagnonUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.floriangabach.Heatzy-CompagnonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Heatzy-Compagnon";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		765276E223AFACA700C54F4C /* Build configuration list for PBXProject "Heatzy-Compagnon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7652770F23AFACA800C54F4C /* Debug */,
+				7652771023AFACA800C54F4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7652771123AFACA800C54F4C /* Build configuration list for PBXNativeTarget "Heatzy-Compagnon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7652771223AFACA800C54F4C /* Debug */,
+				7652771323AFACA800C54F4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7652771423AFACA800C54F4C /* Build configuration list for PBXNativeTarget "Heatzy-CompagnonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7652771523AFACA800C54F4C /* Debug */,
+				7652771623AFACA800C54F4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7652771723AFACA800C54F4C /* Build configuration list for PBXNativeTarget "Heatzy-CompagnonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7652771823AFACA800C54F4C /* Debug */,
+				7652771923AFACA800C54F4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		76246EEF23AFD1B300BD642F /* XCRemoteSwiftPackageReference "KeyboardObserving" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/nickffox/KeyboardObserving";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		76246EF023AFD1B300BD642F /* KeyboardObserving */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 76246EEF23AFD1B300BD642F /* XCRemoteSwiftPackageReference "KeyboardObserving" */;
+			productName = KeyboardObserving;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 765276DF23AFACA700C54F4C /* Project object */;
+}
