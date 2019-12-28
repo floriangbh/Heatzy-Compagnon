@@ -19,15 +19,8 @@ struct LoginView: View {
             LoginTitleView()
             LoginLogoView()
             
-            TextField("Username", text: $username)
-                .padding()
-                .multilineTextAlignment(.center)
-                .cornerRadius(CGFloat(5.0))
-            SecureField("Password", text: $password)
-                .padding()
-                .multilineTextAlignment(.center)
-                .cornerRadius(5.0)
-                .padding(.bottom, 20)
+            LoginUsernameView(username: $username)
+            LoginPasswordView(password: $password)
             
             Button(action: {
                 print("Button tapped")
@@ -79,5 +72,30 @@ struct LoginButtonTextView: View {
             .frame(width: 220, height: 60)
             .background(Color(.darkGray))
             .cornerRadius(15.0)
+    }
+}
+
+struct LoginUsernameView: View {
+    
+    @Binding var username: String
+    
+    var body: some View {
+        TextField("Username", text: $username)
+            .padding()
+            .multilineTextAlignment(.center)
+            .cornerRadius(CGFloat(5.0))
+    }
+}
+
+struct LoginPasswordView: View {
+    
+    @Binding var password: String
+    
+    var body: some View {
+        SecureField("Password", text: $password)
+            .padding()
+            .multilineTextAlignment(.center)
+            .cornerRadius(5.0)
+            .padding(.bottom, 20)
     }
 }
